@@ -1,4 +1,5 @@
 import React from 'react'
+import BucketList from './BucketList'
 import styled from 'styled-components'
 
 const Sidebar = styled.div`
@@ -10,6 +11,6 @@ const Sidebar = styled.div`
 
 export default (props) => (
   <Sidebar>
-    Sidebar
+    <BucketList />
   </Sidebar>
 )
