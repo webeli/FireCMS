@@ -1,13 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react'
+import SiteLayout from './shared/SiteLayout'
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        ReactFireCMS
-      </div>
-    );
-  }
-}
-
-export default App;
+export default (props) => (
+  <SiteLayout />
+)
