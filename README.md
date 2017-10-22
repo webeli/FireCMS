@@ -1,1 +1,1 @@
-## FireCMS - CMS for Firebase Realtime Database
+## FireCMS - Firebase Realtime Database Content Management System (CMS)
