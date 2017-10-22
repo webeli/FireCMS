@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const Header = styled.div`
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	height: ${props => props.theme.header.height};
@@ -13,6 +14,7 @@ const Header = styled.div`
 
 export default (props) => (
 	<Header>
-		<span>Header</span>
+		<h1>FireCMS</h1>
+		<span>Firebase Realtime Database Content Management System</span>
 	</Header>
 )
