@@ -14,5 +14,5 @@ const Header = styled.div`
 export default (props) => (
 	<Header>
 		<span>Header</span>
-  </Header>
+	</Header>
 )
