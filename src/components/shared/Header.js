@@ -13,8 +13,8 @@ const Header = styled.div`
 `
 
 export default (props) => (
-	<Header>
-		<h1>FireCMS</h1>
-		<span>Firebase Realtime Database Content Management System</span>
-	</Header>
+  <Header>
+    <h1>FireCMS</h1>
+    <span>Firebase Realtime Database Content Management System</span>
+  </Header>
 )
